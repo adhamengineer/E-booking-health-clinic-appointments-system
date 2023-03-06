@@ -1,0 +1,566 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+/* general  */
+body {
+  font-family: "Poppins", Sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sectionHeader{
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.title-span{
+  display: block;
+  color: #7a7a7a;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.title-logo{
+  width: 8%;
+  margin-right: 2%;
+}
+
+
+.title-header{
+  color: #081839;
+  font-family: "Poppins", Sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.title-para {
+  color: #7a7a7a;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+
+/* start navbar  */
+
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu .nav-item.dropend:hover {
+  display: block;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #081839;
+  padding: 12px 12px 12px 12px;
+  background-color: #ffffff00;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #1bbde4;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: #1bbde4;
+}
+
+.navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+  color: #1bbde4;
+  background-color: transparent;
+}
+
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover {
+  color: #1bbde4;
+  background-color: transparent;
+}
+
+.navbar .navbar-nav .dropdown-menu {
+  border-width: 1px 1px 1px 1px;
+  border-color: #0000000d;
+  background-color: #ffffff;
+  min-width: 270px;
+  box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 50%);
+}
+
+/* end navbar  */
+
+/* start header  */
+.carouselExampleAutoplaying {
+  height: 80vh;
+}
+
+.swiper .swiper-slide {
+  background-image: url(../imgs/header/slider-img-1.jpg);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(31, 28, 28, 0.5);
+}
+
+.slied-icons {
+  color: #1bbde4;
+  font-size: 30px;
+  background-color: #fff;
+  border-radius: 100%;
+  padding: 10px;
+  width: 30%;
+  height: 7%;
+  padding-top: 15px;
+}
+
+.slied-icons {
+  transition: background-color 0.5s color 0.5s;
+}
+
+.slied-icons:hover {
+  background-color: #1bbde4;
+  color: #fff;
+}
+
+.headerContent {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  z-index: 99;
+  text-align: center;
+  width: 60%;
+}
+
+.headerContent img {
+  width: 5%;
+}
+
+.headerContent span {
+  font-weight: 500;
+  color: #fff;
+  font-size: 20px;
+}
+
+.headerContent h1 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.headerContent p {
+  font-family: "Poppins", Sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+.headerContent a {
+  color: #fff;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 20px;
+  letter-spacing: 1px;
+}
+
+.headerContent .check {
+  background-color: #1bbde4;
+  border: 1px solid #1bbde4;
+}
+
+.headerContent .find {
+  color: #1bbde4;
+  background-color: #fff;
+}
+
+/* end header  */
+
+/* start who awe are  */
+
+.whoweareSection {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.whoWeAre_content {
+  position: relative;
+}
+
+.whoweareSection{
+    position: relative;
+}
+
+.who_image img {
+  background-color: red !important;
+  width: 80%;
+}
+
+.whoWeAre_content .wwrHeader img {
+  width: 12%;
+  padding-right: 10px;
+}
+
+.whoWeAre_content .wwrHeader h4 {
+  color: #1bbde4;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 600;
+}
+
+.whoWeAre_content h2 {
+  color: #081839;
+  font-family: "Poppins", Sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+.whoWeAre_content p {
+  color: #7a7a7a;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.offers svg {
+  width: 20%;
+  fill: #1bbde4;
+  margin-right: 12px;
+  margin-bottom: 10px;
+}
+
+.offers .offers_choices h3 {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-top: 7%;
+  color: #081839;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.learnButton{
+  color: #fff;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  background-color: #1bbde4;
+  position: absolute;
+  bottom: -80px;
+  transition: background-color 0.5s;
+}
+
+.learnButton:hover {
+  background-color: #081839;
+}
+
+#healthcaredfaserdf34 {
+    width: 7%;
+    fill: #fff;
+    background-color: #db3833;
+    border-radius: 100%;
+    position: absolute;
+    left: 544px;
+    top: 190px;
+    transition: background-color 0.5s;
+}
+
+#healthcaredfaserdf34:hover {
+  background-color: #fff;
+  fill: #000;
+}
+/* end who awe are  */
+
+/* start services  */
+
+.servicesSection {
+  background-image: url(../imgs/services/services-bg-2-01.jpg);
+  background-attachment: fixed;
+  height: 140vh;
+}
+
+.serCard {
+  position: relative;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
+  width: 25%;
+  height: 20%;
+  overflow: hidden;
+  transition: transform 0.5s;
+}
+
+.serCard:hover {
+  transform: translatey(-10px);
+}
+
+.svg_hov {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  left: 10px;
+  bottom: -80px;
+  transition: opacity 0.5s, bottom 0.5s;
+}
+
+.serCard:hover .svg_hov {
+  opacity: 0.3;
+  visibility: visible;
+  bottom: -20px;
+}
+
+.serCard a{
+    transition: color 0.5s;
+}
+
+.serCard:hover a{
+    color: #081839;
+}
+
+.serCard h3 {
+  font-size: 23px;
+  margin: 0px 0px 15px 0px;
+  color: #081839;
+  font-family: "Poppins", Sans-serif;
+}
+
+.serCard p {
+  color: #7a7a7a;
+  font-weight: 500;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+.serCard svg {
+  fill: #1bbde4;
+}
+
+.close-ser p{
+    color: #081839;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+    width: 60%;
+}
+
+.close-ser img{
+    width: 5%;
+    padding-right: 10px;
+}
+
+.closeServices a{
+    font-weight: 600;
+    color: #FFFFFF;
+    width: 15%;
+    background-color: #1BBDE4;
+    transition: background-color 0.5s;
+}
+
+.closeServices a:hover {
+    background-color: #081839;
+  }
+/* end services  */
+
+/* start certificated doctors  */
+
+.doctor{
+  width: 30%;
+}
+
+.doctors{
+position: relative;
+overflow: hidden;
+}
+
+
+.doctors img{
+  width: 100%;
+}
+
+.doctors-icons i{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.doctors-icons{
+  position: absolute;
+  top: 50px;
+  left: -47px;
+  transition: left 0.5s;
+}
+
+.doctors:hover .doctors-icons{
+  left: 20px;
+}
+
+.doctor .svg{
+  position: absolute;
+  background-color: #1bbde4;
+  fill: #fff;
+  bottom: 251px;
+  left: 151px;
+  transition: background-color 0.5s;
+}
+
+.doctors:hover .svg{
+  fill: #1BBDE4;
+  background-color: #fff;
+}
+
+.doctor-img{
+  width: 100%;
+  position: relative;
+  transition: transform 0.5s;
+  overflow: hidden;
+}
+
+.doctors:hover .doctor-img {
+  transform: scale(1.2);
+}
+
+.doctor-img .overlay{
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.doctors:hover .overlay{
+  opacity: 1;
+}
+
+.doctor-desc p{
+  color: #7a7a7a;
+  font-weight: 500;
+  width: 80%;
+  margin: auto;
+}
+
+.doctor-desc a{
+  color: #fff;
+  font-weight: 500;
+  background-color: #081839;
+  transition: background-color 0.5s;
+}
+
+.doctor-desc a:hover{
+  background-color: #1bbde4;
+}
+
+/* end certificated doctors  */
+
+/* start Doctors Specialize  */
+
+.specializeSection .card{
+  color: #fff;
+  background-color: #081839;
+height: 100%;
+padding: 12%;
+}
+
+.specializeSection .card h2{
+  color: #FCFCFC;
+  font-family: "Poppins", Sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.specializeSection .card p{
+  color: #B6C1D8;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.specializeSection .card ul{
+  color: #B6C1D8;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+list-style-type: none;
+margin-left: -30px;
+}
+
+.specializeSection .card i{
+  color: #DB3833;
+}
+
+
+.specializeimg img{
+  width: 100%;
+}
+
+
+/* end Doctors Specialize  */
+
+
+/* start Testimonials  */
+.ourPatients_section{
+  background-image: url(../imgs/Testimonials/gallery-img-4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed ;
+  height: 100vh;
+  position: relative;
+}
+
+.ourPatients_section .overlay {
+  background-color:rgba(8, 24, 57, 0.856);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.ourPatients_section .sectionHeader{
+position: absolute;
+left: 25%;
+}
+
+.carousel .carousel-item p{
+  line-height: 26px;
+    font-size: 16px;
+    color: #7A7A7A;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.carousel .carousel-item .star-icon{
+  color: #ffc107;
+}
+
+.carousel .carousel-item h3{
+  color: #081839;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.carousel .carousel-item span{
+  line-height: 26px;
+  font-size: 16px;
+  color: #7A7A7A;
+  font-weight: 500;
+}
+
+.carousel .carousel-item .user i{
+  font-size: 150px;
+  color: #7A7A7A;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+/* end Testimonials  */

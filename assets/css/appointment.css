@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+a{
+    text-decoration: none;
+}
+
+
+/* start header  */
+.header{
+    background-image: url(../imgs/appointment/header/breadcrumb-bg-scaled.jpg);
+    background-size: cover;
+    position: relative;
+    height: 37vh;
+}
+
+.header .header_content{
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    position: absolute;
+    left: 37%;
+    top: 40%;
+}
+
+.header h2{
+    font-size: 40px;
+    font-weight: 600; 
+}
+ 
+.header a{
+    color: #FFFFFF;
+    transition: color 0.3s;
+}
+
+.header a:hover{
+    color: #1bbde4;
+}
+
+.header .header_content_links{
+    margin-left: 15%;
+}
+
+.overlay{
+    position: absolute;
+    background-color:rgba(8, 24, 57, 0.7) ;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* end header  */
+
+/* start appointment  */
+
+.appoinmentSection{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.appoinmentSection .booking_section{
+background-image: url(../imgs/appointment/booking/doctor-work-11.jpg);
+background-size: cover;
+background-attachment: fixed;
+width: 40%;
+height: 90vh;
+position: relative;
+}
+
+.booking_img .booking_content{
+    top: 10%;
+    position: absolute;
+    color: #FFFFFF;
+}
+
+.booking_content h3{
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+}
+
+.booking_content h2{
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.booking_content p{
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 12px;
+}
+
+.contact_number h2 , i{
+    color: #1BBDE4;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 700;
+}
+
+.contact_number i{
+    font-size: 50px;
+}
+
+.booking_form h2{
+    color: #081839;
+    font-family: "Poppins", Sans-serif;
+}
+
+.booking_form p{
+    color: #7A7A7A;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.booking_form{
+ width: 45%;
+ padding: 4%;
+}
+
+.message_text{
+    margin-bottom: 10%;
+}
+
+/* end appointment  */

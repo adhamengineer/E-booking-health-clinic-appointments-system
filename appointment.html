@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>appointment</title>
+
+    <!-- bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!-- fontawesome css  -->
+  <link rel="stylesheet" href="vendor/all.min.css">
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="assets/css/appointment.css">
+</head>
+
+<body>
+
+    <!-- start navbar  -->
+    <nav class="navbar navbar-expand-lg mb-2 ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/imgs/navbar/viscareo-logo1.svg" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown pt-2">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu rounded-0 p-3">
+                            <li><a class="dropdown-item active p-2" href="#">Home 1</a></li>
+                            <li><a class="dropdown-item p-2" href="#">Home 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pt-2">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+
+                    <li class="nav-item dropdown pt-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Doctors
+                        </a>
+                        <ul class="dropdown-menu rounded-0">
+                            <li><a class="dropdown-item" href="#">Doctor Grid</a></li>
+                            <li><a class="dropdown-item" href="#">Doctor Single</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown pt-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages
+                        </a>
+
+                        <ul class="dropdown-menu rounded-0">
+                            <li class="nav-item dropend">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Department
+                                </a>
+
+                                <ul class="dropdown-menu rounded-0">
+                                    <li><a class="dropdown-item" href="#">Department Stabdard</a></li>
+                                    <li><a class="dropdown-item" href="#">Department Grid</a></li>
+                                    <li><a class="dropdown-item" href="#">Department Single</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a class="dropdown-item" href="#">Appointment</a></li>
+                            <li><a class="dropdown-item" href="#">Gallary</a></li>
+                            <li><a class="dropdown-item" href="#">Pricing</a></li>
+                            <li><a class="dropdown-item" href="#">Faqs</a></li>
+                            <li><a class="dropdown-item" href="#">404</a></li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Others
+                                </a>
+                                <ul class="dropdown-menu rounded-0">
+                                    <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+                                    <li><a class="dropdown-item" href="#">Terms and conditions</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown pt-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Blog
+                        </a>
+
+                        <ul class="dropdown-menu pe-5 rounded-0">
+                            <li><a class="dropdown-item pb-2" href="#">Blog standard</a></li>
+                            <li><a class="dropdown-item pb-2" href="#">Blog Grid</a></li>
+                            <li><a class="dropdown-item pb-2" href="#">Blog Single</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pt-2">
+                        <a class="nav-link me-3" href="#">Contact Us</a>
+                    </li>
+
+                    <li class="nav-item border border-1 p-2 btn btn-danger rounded-0">
+                        <a class="nav-link text-white" href="appointment.html">Appointment</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar  -->
+
+    <!-- start header  -->
+
+    <header class="header mt-5">
+<div class="overlay"></div>
+        <div class="header_content">
+            <h2>Appointment</h2>
+            <div class="header_content_links">
+                <i class="fa-solid fa-house text-white"></i>
+                <a href="#" class="home_link border-end pe-2">Home</a>
+                <a href="#">Appointment</a>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- end header  -->
+
+    <!-- start booking  -->
+    <section class="appoinmentSection">
+        <div class="container">
+            <div class="row">
+            
+                <div class="booking_form col-lg-6 shadow">
+                    <div class="booking_content">
+                        <h2>Book An Appointment</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+
+                    <form>
+                        <div class="row">
+                            <div class="mb-3 col-lg-6">
+                                <label class="form-label d-block">Department</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>---</option>
+                                    <option value="1">Corona Test</option>
+                                    <option value="2">Cardiology</option>
+                                    <option value="3">Neurology</option>
+                                    <option value="4">Urology</option>
+                                    <option value="5">Blood Test</option>
+                                    <option value="6">Valve Diseases</option>
+                                    <option value="7">Body Surgery</option>
+                                    <option value="8">Children's Emergency</option>
+                                  </select>
+                            </div>
+
+                            <div class="mb-3 col-lg-6">
+                                <label class="form-label d-block">Doctor</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>---</option>
+                                    <option value="1">Dr. Rony k</option>
+                                    <option value="2">Dr. Eva a</option>
+                                    <option value="3">Dr. Sonia k</option>
+                                    <option value="4">Dr. David C</option>
+                                  </select>
+                            </div>
+
+                            <div class="mb-3 col-lg-6">
+                                <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+
+                            <div class="mb-3 col-lg-6">
+                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Full Name">
+                            </div>
+
+                            <div class="mb-3 col-lg-6">
+                                <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email address">
+                            </div>
+
+                            <div class="mb-3 col-lg-6">
+                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Phone number">
+                            </div>
+                          
+                            <div class="message_text col-lg-12">
+                                <textarea name="message" class="form-control" cols="30" rows="5"  placeholder="Message"></textarea>
+
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary rounded-0 p-3">Make Appointment</button>
+                        
+                    </form>
+                </div>
+            
+                <div class="booking_section col-lg-6">
+                    <div class="booking_img">
+                        <div class="overlay"></div>
+                        <div class="booking_content d-flex flex-wrap p-4">
+                            <img src="assets/imgs/appointment/booking/icon-white.svg" class="mb-3 me-2" width="10%">
+                            <h3 class="pt-1">For Emergency Cases</h3>
+                            <h2 class="mb-3">24 Hours Available</h2>
+                            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                 It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,</p>
+                        <button class="btn bg-info text-white rounded-0 p-3 px-4 mb-4">Contact Us <i class="fa-solid fa-arrow-right-long ps-2 text-white"></i></button>
+                        <div class="contact_number d-flex ">
+                            <i class="fa-solid fa-headphones-simple me-2"></i>
+                            <h2 class="pt-1">+1 (201) 555-0123</h2>
+                        </div>
+                      
+                        </div>
+               
+                            </div>
+                </div>
+            </div>
+        </div>
+                  
+    </section>
+  
+    <!-- end booking  -->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
