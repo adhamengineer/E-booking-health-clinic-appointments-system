@@ -4,6 +4,13 @@ a{
     text-decoration: none;
 }
 
+.dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu .nav-item.dropend:hover {
+    display: block;
+  }
 
 /* start header  */
 .header{

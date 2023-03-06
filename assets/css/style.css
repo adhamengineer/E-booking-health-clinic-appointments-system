@@ -44,8 +44,20 @@ a {
 }
 
 
-/* start navbar  */
+/* start top  */
 
+.topSection {
+  background-color: #081839;
+  color: #FCFCFC;
+}
+
+.top_icons{
+  color: #081839;
+}
+/* end top  */
+
+
+/* start navbar  */
 
 .dropdown:hover > .dropdown-menu {
   display: block;
@@ -269,7 +281,7 @@ a {
     background-color: #db3833;
     border-radius: 100%;
     position: absolute;
-    left: 544px;
+    left: 506px;
     top: 190px;
     transition: background-color 0.5s;
 }
@@ -285,7 +297,7 @@ a {
 .servicesSection {
   background-image: url(../imgs/services/services-bg-2-01.jpg);
   background-attachment: fixed;
-  height: 140vh;
+  height: 150vh;
 }
 
 .serCard {
@@ -399,7 +411,7 @@ overflow: hidden;
 
 .doctors-icons{
   position: absolute;
-  top: 50px;
+  top: 32px;
   left: -47px;
   transition: left 0.5s;
 }
@@ -412,8 +424,8 @@ overflow: hidden;
   position: absolute;
   background-color: #1bbde4;
   fill: #fff;
-  bottom: 251px;
-  left: 151px;
+  bottom: 274px;
+  left: 128px;
   transition: background-color 0.5s;
 }
 
