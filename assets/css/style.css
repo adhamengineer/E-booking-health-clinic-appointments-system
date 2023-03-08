@@ -3,6 +3,8 @@
 /* general  */
 body {
   font-family: "Poppins", Sans-serif;
+  position: relative;
+  margin-top: -5.5%;
 }
 
 a {
@@ -43,6 +45,18 @@ a {
   line-height: 26px;
 }
 
+.topButton{
+  position: absolute;
+  position: sticky;
+  top: 85%;
+  left: 92%;
+  color: #fff;
+  background-color: #1bbde4;
+  width: 6%;
+  height: 5%;
+  font-size: 25px;
+  z-index: 99;
+}
 
 /* start top  */
 
@@ -51,7 +65,12 @@ a {
   color: #FCFCFC;
 }
 
-.top_icons{
+
+.topCicons i{
+  color: #1BBDE4;
+}
+
+.top_icons i{
   color: #081839;
 }
 /* end top  */
@@ -158,6 +177,9 @@ a {
   font-weight: 500;
   color: #fff;
   font-size: 20px;
+  transform: translateY(100px);
+  animation-name: slide;
+  animation-duration: 0.5s;
 }
 
 .headerContent h1 {
@@ -165,6 +187,8 @@ a {
   font-size: 80px;
   font-weight: 700;
   color: #fff;
+  animation-name: slide;
+  animation-duration: 0.5s;
 }
 
 .headerContent p {
@@ -194,6 +218,8 @@ a {
   color: #1bbde4;
   background-color: #fff;
 }
+
+
 
 /* end header  */
 
@@ -471,6 +497,14 @@ overflow: hidden;
   background-color: #1bbde4;
 }
 
+.close-ser p{
+  width: 75%;
+}
+
+.closeServices a{
+  width: 25%;
+  height: 65%;
+}
 /* end certificated doctors  */
 
 /* start Doctors Specialize  */
@@ -576,3 +610,271 @@ left: 25%;
   margin-bottom: 5%;
 }
 /* end Testimonials  */
+
+
+/* start gallary  */
+
+.gallary_header_left span , p{
+  color: #888888;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.gallary_header_left h2{
+  color: #081839;
+  font-family: "Poppins", Sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.gallary_header_right{
+  position: relative;
+}
+
+.gallary_header_right_img{
+  position: relative;
+  width: 80%;
+height: 80%;
+}
+
+.gallary_header_right_img img{
+  width: 100%;
+  height: 100%;
+}
+
+.gallary_header_right_img .overlay{
+  background-color: #081839;
+  opacity: 0.7;
+}
+
+.gallary_header_right_text{
+  position: absolute;
+ color: #fff;
+ top: 10%;
+ left: 5%;
+}
+
+.gallary_header_left .btn{
+  transition: background-color 0.3s;
+}
+
+.gallary_header_left .btn:hover{
+  background-color: #081839;
+}
+
+.row_down{
+  color: #fff;
+  margin-top: -50px;
+}
+
+.row_down_img{
+  position: relative;
+  width: 30%;
+}
+
+.row_down_img img{
+  width: 100%;
+}
+
+
+.row_down_img .overlay{
+  background-color: #081839;
+  width: 0;
+  opacity: 0;
+  transition: opacity 0.5s , width 0.5s;
+}
+
+.row_down_img:hover .overlay{
+  opacity: 0.7;
+  width: 98%;
+}
+
+.row_down_img_content{
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  right: 10%;
+  opacity: 0;
+}
+
+.row_down_img:hover .row_down_img_content{
+  opacity: 1;
+}
+
+.row_down_img_content p{
+  font-family: "Poppins", Sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.row_down_img i{
+  position: absolute;
+  font-size: 25px;
+  bottom: 0;
+  right: 3%;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.row_down_img:hover i{
+  opacity: 1;
+}
+/* end gallary  */
+
+
+/* start consultation  */
+
+.consultation_header{
+  background-image: url(../imgs/Consultation/call-back-bg-img-1-1024x683-1.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-position: 0 60%;
+  position: relative;
+}
+
+.consultation_header .overlay{
+  background-color: #1BBDE4;
+  opacity: 0.6;
+}
+
+.consultation_header_content{
+position: absolute;
+top: 25%;
+left: 15%;
+}
+
+.consultation_header_content i{
+  font-size: 20px;
+}
+
+.consultation_header_content .playIcon{
+  position: relative;
+}
+
+.consultation_header_content .playIcon::before{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+box-shadow: 1px 1px 50px #fff;
+border-radius: 50%;
+width: 100%;
+height: 100%;
+opacity: 1;
+animation-name: playbut;
+animation-duration: 1.3s;
+animation-delay: 0.6s;
+animation-iteration-count: infinite;
+}
+
+.consultation_header_content h2{
+  color: #FFFFFF;
+  font-family: "Poppins", Sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.consultation_header_content p{
+  font-family: "Poppins", Sans-serif;
+  font-weight: 500;
+  line-height: 26px;
+  width: 70%;
+}
+
+.consultation_header_content .conContact{
+  width: 20%;
+  background-color: #fff;
+  border: transparent !important;
+  transition: background-color 0.3s color 0.3s;
+}
+
+.consultation_header_content .conContact:hover{
+  color: #fff;
+  background-color: #081839;
+}
+
+.consultation_header_content .conAppoint{
+  background-color: #081839;
+  color: #fff;
+  width: 30%;
+  border:#081839 !important;
+  transition: background-color 0.3s color 0.3s;
+}
+
+.consultation_header_content .conAppoint:hover{
+  color: #081839;
+  background-color: #fff;
+  }
+
+/* end consultation  */
+
+
+/* start Blogs  */
+
+.blog_img img{
+  width: 100%;
+}
+
+.blog_content a{
+display: block;
+}
+
+.bc_title{
+  font-family: "Poppins", Sans-serif;
+  font-weight: 500;
+color: #7a7a7a;
+}
+
+.fa-tags{
+  color: #7a7a7a;
+}
+
+.bc_bigtitle{
+  font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #000;
+}
+
+.bc_para{
+  width: 80%;
+  font-weight: 500;
+}
+
+.blog_content .btn{
+  width: 45%;
+  font-weight: 600;
+    color: #081839;
+    background-color: #EDF0FF;
+    transition: 0.3s;
+}
+
+.blog_content .btn:hover{
+ color: #fff;
+ background-color: #1bbde4; 
+}
+
+.blog{
+  overflow: hidden;
+}
+
+.blog_img{
+  transition: 0.3s;
+}
+
+.blog:hover .blog_img{
+  transform: rotate(1deg) scale(1.1);
+  opacity: 0.7;
+}
+
+.chkBut{
+  transition: background-color 0.3s;
+}
+
+.chkBut:hover{
+  background-color: #081839 !important;
+}
+/* end Blogs  */
