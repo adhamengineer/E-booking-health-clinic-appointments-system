@@ -1,0 +1,35 @@
+.imgBg {
+    background-color: #081839;
+    /* background-image: url(../imgs/footer/footer-bg1.png); */
+    background-size: cover;
+    background-position: center;
+}
+
+footer div ul .contactIcons, footer div ul .check, .social i {
+    line-height: 35px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #D9534F;
+}
+
+.social i {
+    text-align: left;
+}
+
+footer div div .dark {
+    background-color: #0000004F;
+    padding: 20px;
+}
+
+.headerH4 {
+    color: #1BBDE4;
+}
+
+.headerH4 img {
+    width: 44px;
+}
+
+.para {
+    width: 90% !important;
+}
