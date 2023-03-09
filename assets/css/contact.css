@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+a{
+    text-decoration: none;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu .nav-item.dropend:hover {
+    display: block;
+  }
+
+
+/* start top  */
+
+.topSection {
+    background-color: #081839;
+    color: #FCFCFC;
+  }
+  
+  
+  .topCicons i{
+    color: #1BBDE4;
+  }
+  
+  .top_icons i{
+    color: #081839;
+  }
+  /* end top  */
+
+
+/* start navbar  */
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu .nav-item.dropend:hover {
+    display: block;
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #081839;
+    padding: 12px 12px 12px 12px;
+    background-color: #ffffff00;
+  }
+  
+  .navbar .navbar-nav .nav-link:hover {
+    color: #1bbde4;
+  }
+  
+  .navbar .navbar-nav .nav-link.active {
+    color: #1bbde4;
+  }
+  
+  .navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+    color: #1bbde4;
+    background-color: transparent;
+  }
+  
+  .navbar .navbar-nav .dropdown-menu .dropdown-item:hover {
+    color: #1bbde4;
+    background-color: transparent;
+  }
+  
+  .navbar .navbar-nav .dropdown-menu {
+    border-width: 1px 1px 1px 1px;
+    border-color: #0000000d;
+    background-color: #ffffff;
+    min-width: 270px;
+    box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 50%);
+  }
+  
+  /* end navbar  */
+
+/* start header  */
+.header{
+    background-image: url(../imgs/appointment/header/breadcrumb-bg-scaled.jpg);
+    background-size: cover;
+    position: relative;
+    height: 50vh;
+}
+
+.header .header_content{
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    position: absolute;
+    left: 41%;
+    top: 40%;
+}
+
+.header h2{
+    font-size: 40px;
+    font-weight: 600; 
+}
+ 
+.header a{
+    color: #FFFFFF;
+    transition: color 0.3s;
+}
+
+.header a:hover{
+    color: #1bbde4;
+}
+
+.header .header_content_links{
+    margin-left: 11%;
+}
+
+.overlay{
+    position: absolute;
+    background-color:rgba(8, 24, 57, 0.7) ;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+/* end header  */
+
+/* start contact options */
+
+.contact_section i{
+    background-color: #1bbde4;
+    padding: 10%;
+    font-size: 30px;
+}
+
+.contact_section span{
+    color: #7A7A7A;
+    font-weight: 500;
+}
+
+.conOption{
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.conOption:hover{
+    transform: translateY(-20px);
+}
+
+/* end contact options */
+
+/* start contact form  */
+
+.contact_formHeader h2{
+    color: #081839;
+    font-family: "Poppins", Sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.contact_formHeader p{
+    color: #7A7A7A;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.contact_img{
+    position: relative;
+
+}
+
+.contact_img img{
+    width: 90%;
+    height: 80vh;
+}
+
+.contact_imgC{
+    position: absolute;
+    bottom: 49px;
+    left: 62px;
+}
+
+.contact_imgC i{
+    font-size: 40px;
+    color: #1bbde4;
+}
+
+.contact_form input{
+    position: relative;
+}
+
+.contact_form #nameSpan{
+    position: absolute;
+    bottom: -475px;
+    left: 130px;
+}
+
+.contact_form #emailSpan{
+    position: absolute;
+    bottom: -475px;
+    left: 405px;
+}
+
+.contact_form #phoneSpan{
+    position: absolute;
+    bottom: -540px;
+    left: 130px;
+}
+
+
+.contact_form #subjectSpan{
+    position: absolute;
+    bottom: -540px;
+    left: 395px;
+}
+
+.contact_form #messageSpan{
+    position: absolute;
+    bottom: -599px;
+    left: 130px;
+}
+
+/* end contact form  */
+
+/* start email bar  */
+
+.search_bar{
+    background-color: #EDF0FF;
+}
+
+.search_barContant img{
+ width: 8%;   
+}
+
+.search_bar h2{
+    color: #081839;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 600;
+}
+
+.search_bar p{
+    color: #7A7A7A;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+/* end email bar  */
+
