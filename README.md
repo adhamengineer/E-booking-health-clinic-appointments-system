@@ -1,6 +1,5 @@
 # E-booking-health-clinic-appointments-system
 
-E-Booking Health Clinic Appointments UI Design
 This project is a UI design for an e-booking health clinic appointments website. The website design is built using HTML, CSS, Bootstrap, and some functionalities using JavaScript.
 
 The website design provides an easy-to-use platform for patients to book, modify, or cancel appointments with their healthcare provider from anywhere, anytime. The UI design is responsive, making it accessible on different devices, such as desktops, laptops, tablets, and smartphones.
