@@ -6,7 +6,7 @@
 }
 
 footer div ul .contactIcons, footer div ul .check, .social i {
-    line-height: 35px;
+    line-height: 30px;
     width: 30px;
     height: 30px;
     text-align: center;
@@ -31,5 +31,22 @@ footer div div .dark {
 }
 
 .para {
-    width: 90% !important;
+    width: 78% !important;
+    color: #fff;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 400;
+}
+
+.end div p {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.end div span {
+    color : #888
+}
+
+.end div .span1, .end div .span2 {
+    border-right: solid 1px #909090;
 }

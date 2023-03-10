@@ -72,6 +72,9 @@ a {
 
 .top_icons i{
   color: #081839;
+  width: 30px !important;
+  height: 30px !important;
+  line-height: 15px;
 }
 /* end top  */
 
