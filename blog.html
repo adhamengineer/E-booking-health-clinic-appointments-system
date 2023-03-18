@@ -172,7 +172,7 @@
     <div class="container py-4 my-3">
         <div class="flex-sections d-flex mx-2 px-3">
             <section class="leftSide col-lg-8 pt-5 pe-5 pb-5">
-                <div class="card w-100 border-0 shadow-sm rounded-0 mb-5">
+                <div class="card w-100 border-0 shadow-sm rounded-0 mb-5 body filter-item">
                     <div class="img">
                         <img src="./assets/imgs/blog/blog-img-8.jpg" class="card-img-top rounded-0" alt="doctor check girl">
                         <div class="imgDetails border-bottom">
@@ -187,7 +187,7 @@
                       <a href="#" class="btn btn-primary rounded-0 py-3 px-4 fs-bolder text-light mainBgColor">Read More <i class="fa-solid fa-arrow-right-long text-light"></i></a>
                     </div>
                   </div>
-                  <div class="card w-100 border-0 shadow-sm rounded-0 mb-5">
+                  <div class="card w-100 border-0 shadow-sm rounded-0 mb-5 body filter-item">
                     <div class="img">
                         <img src="./assets/imgs/blog/blog-img-7.jpg" class="card-img-top rounded-0" alt="doctor check girl">
                         <div class="imgDetails border-bottom">
@@ -202,7 +202,7 @@
                       <a href="#" class="btn btn-primary rounded-0 py-3 px-4 fs-bolder text-light mainBgColor">Read More <i class="fa-solid fa-arrow-right-long text-light"></i></a>
                     </div>
                   </div>
-                  <div class="card w-100 border-0 shadow-sm rounded-0 mb-5">
+                  <div class="card w-100 border-0 shadow-sm rounded-0 mb-5 body filter-item">
                     <div class="img">
                         <img src="./assets/imgs/blog/blog-img-6.jpg" class="card-img-top rounded-0" alt="doctor check girl">
                         <div class="imgDetails border-bottom">
@@ -217,7 +217,7 @@
                       <a href="#" class="btn btn-primary rounded-0 py-3 px-4 fs-bolder text-light mainBgColor">Read More <i class="fa-solid fa-arrow-right-long text-light"></i></a>
                     </div>
                   </div>
-                  <div class="card w-100 border-0 shadow-sm rounded-0 mb-5">
+                  <div class="card w-100 border-0 shadow-sm rounded-0 mb-5 blood filter-item">
                     <div class="img">
                         <img src="./assets/imgs/blog/blog-img-5.jpg" class="card-img-top rounded-0" alt="doctor check girl">
                         <div class="imgDetails border-bottom">
@@ -232,7 +232,7 @@
                       <a href="#" class="btn btn-primary rounded-0 py-3 px-4 fs-bolder text-light mainBgColor">Read More <i class="fa-solid fa-arrow-right-long text-light"></i></a>
                     </div>
                   </div>
-                  <div class="card w-100 border-0 shadow-sm rounded-0 mb-5">
+                  <div class="card w-100 border-0 shadow-sm rounded-0 mb-5 body filter-item">
                     <div class="img">
                         <img src="./assets/imgs/blog/blog-img-4.jpg" class="card-img-top rounded-0" alt="doctor check girl">
                         <div class="imgDetails border-bottom">
@@ -247,7 +247,7 @@
                       <a href="#" class="btn btn-primary rounded-0 py-3 px-4 fs-bolder text-light mainBgColor">Read More <i class="fa-solid fa-arrow-right-long text-light"></i></a>
                     </div>
                   </div>
-                  <div class="card w-100 border-0 shadow-sm rounded-0 mb-5">
+                  <div class="card w-100 border-0 shadow-sm rounded-0 mb-5 body filter-item">
                     <div class="img">
                         <img src="./assets/imgs/blog/blog-img-3.jpg" class="card-img-top rounded-0" alt="doctor check girl">
                         <div class="imgDetails border-bottom">
@@ -262,7 +262,7 @@
                       <a href="#" class="btn btn-primary rounded-0 py-3 px-4 fs-bolder text-light mainBgColor">Read More <i class="fa-solid fa-arrow-right-long text-light"></i></a>
                     </div>
                   </div>
-                  <div class="card w-100 border-0 shadow-sm rounded-0 mb-5">
+                  <div class="card w-100 border-0 shadow-sm rounded-0 mb-5 body filter-item">
                     <div class="img">
                         <img src="./assets/imgs/blog/blog-img-2.jpg" class="card-img-top rounded-0" alt="doctor check girl">
                         <div class="imgDetails border-bottom">
@@ -277,7 +277,7 @@
                       <a href="#" class="btn btn-primary rounded-0 py-3 px-4 fs-bolder text-light mainBgColor">Read More <i class="fa-solid fa-arrow-right-long text-light"></i></a>
                     </div>
                   </div>
-                  <div class="card w-100 border-0 shadow-sm rounded-0 mb-5">
+                  <div class="card w-100 border-0 shadow-sm rounded-0 mb-5 body filter-item">
                     <div class="img">
                         <img src="./assets/imgs/blog/blog-img-1.jpg" class="card-img-top rounded-0" alt="doctor check girl">
                         <div class="imgDetails border-bottom">
@@ -338,8 +338,19 @@
                 </div>
                 <div class="w-100 bd-light p-5 shadow-sm mb-5">
                     <h3 class="w-100 border-bottom pb-2">Tags</h3>
-                    <div class="input-group mb-3 mt-4">
-                        <input class="form-control rounded-0 py-3" id="SearchBox" placeholder="Search"><span class="input-group-text rounded-0 mainBgColor"><i class="fa-solid fa-magnifying-glass text-light my-3 mx-2"></i></span>
+                    <div class="input-group mb-3 mt-4 d-flex">
+                        <div id="myBtnContainer" class="col-lg-10">
+                            <button class="filter btn text-dark rounded-0 my-1" onclick="filtering('blood')"> blood test</button>
+                            <button class="filter btn text-dark rounded-0 my-1" onclick="filtering('body')"> body surgery</button>
+                            <button class="filter btn text-dark rounded-0 my-1" onclick="filtering('cardiology')"> cardiology</button>
+                            <button class="filter btn text-dark rounded-0 my-1" onclick="filtering('children')"> children's emergency</button>
+                            <button class="filter btn text-dark rounded-0 my-1" onclick="filtering('corona')"> corona</button>
+                            <button class="filter btn text-dark rounded-0 my-1" onclick="filtering('covid')"> covid</button>
+                            <button class="filter btn text-dark rounded-0 my-1" onclick="filtering('neurology')"> neurology</button>
+                            <button class="filter btn text-dark rounded-0 my-1" onclick="filtering('test')"> test</button>
+                            <button class="filter btn text-dark rounded-0 my-1" onclick="filtering('urology')"> urology</button>
+                            <button class="filter btn text-dark rounded-0 my-1" onclick="filtering('valve')"> valve diseases</button>
+                          </div>
                     </div>
                 </div>
             </section>
@@ -347,7 +358,7 @@
     </div>
 
     <!-- main js  -->
-    <script src="main.js"></script>
+    <script src="./java script/main.js"></script>
     <!--Bootstrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
