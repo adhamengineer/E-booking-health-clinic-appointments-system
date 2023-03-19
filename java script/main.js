@@ -6,12 +6,14 @@ function filtering(selection) {
     }
     console.log(items);
     for (var i = 0; i < filterItems.length; i++) {
-        if (filterItems[i].className.includes(selection)){
-            filterItems[i].setAttribute('class', filterItems[i].className + ' d-inline-block');
+        if (filterItems[i].className.includes(selection) == false) {
+            filterItems[i].classList.add("d-none");
         }
-        else
-        {
-            filterItems[i].setAttribute('class', filterItems[i].className + ' d-none');
+    }
+    for (var i = 0; i < filterItems.length; i++) {
+        if (filterItems[i].className.includes(selection)) {
+            filterItems[i].classList.remove("d-none");
+            filterItems[i].classList.add("d-inline-block");
         }
     }
 }
