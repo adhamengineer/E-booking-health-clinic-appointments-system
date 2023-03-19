@@ -7,11 +7,11 @@ function filtering(selection) {
     console.log(items);
     for (var i = 0; i < filterItems.length; i++) {
         if (filterItems[i].className.includes(selection)){
-            filterItems[i].setAttribute('class', filterItems[i].className + ' d-none');
+            filterItems[i].setAttribute('class', filterItems[i].className + ' d-inline-block');
         }
         else
         {
-            filterItems[i].setAttribute('class', filterItems[i].className + ' d-inline-block');
+            filterItems[i].setAttribute('class', filterItems[i].className + ' d-none');
         }
     }
 }
