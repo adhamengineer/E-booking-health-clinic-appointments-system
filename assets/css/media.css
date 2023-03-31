@@ -1,0 +1,155 @@
+@media (max-width: 576px){
+
+    .topButton{
+        visibility: hidden;
+    }
+
+    /* start top  */
+
+    .topSection .topCicons{
+        width: 100%;
+        display: block;
+      }
+
+      .topSection .topCiconsSon{
+        margin: auto;
+        text-align: center;
+      }
+
+    .topSection .topCicons span{
+        font-size: 10px;
+      }
+
+      .topSection .top_icons{
+        width: 100% !important;
+        text-align: center;
+        display: block;
+      }
+    /* end top  */
+
+
+      /* header  */
+
+      .header .carouselExampleAutoplaying {
+        height: 100vh;
+      }
+
+      .header .headerContent {
+
+        top: 18%;
+        left: 20%;
+
+        width: 60%;
+      }
+
+      .header .headerContent h1{
+        font-size: 25px;
+        }
+
+        .header .headerContent p{
+            font-size: 5px;
+            }
+
+            .header .headerContent a {
+
+                font-weight: 400;
+                font-size: 10px;
+                margin-right: 10px;
+                padding: 5px;
+              }
+
+
+              /* start who awe are  */
+              .whoweareSection .who_image img {
+                width: 100%;
+              }
+
+              .whoWeAre_content .wwrHeader img {
+                margin-top: 10%;
+              }
+              
+              .whoWeAre_content .wwrHeader h4 {
+                margin-top: 11% !important;
+              }
+
+              .whoweareSection .whoWeAre_content h2 {
+                font-size: 30px;
+              }
+
+              .whoWeAre_content.learnButton{
+          margin-bottom: 10%;
+          padding: 5% !important;
+              }
+
+              /* start services  */
+
+
+
+              /* start gallary  */
+               .gallary_section .gallary_header_left h2{
+                font-size: 25px;
+              }
+
+              .gallary_section .gallary_header_right_img{
+                width: 100%;
+              height: 100%;
+              }
+               
+              .gallary_section .row_down_img{
+                width: 100%;
+                margin-top: 7%;
+              }
+
+             /* end gallary  */
+
+
+             /* start Consultation  */
+            .consultation .consultation_header{
+                height: 100vh;
+                }
+
+            .consultation .consultation_header .consultation_header_content h2{
+                    font-size: 30px;
+                  }
+
+                  .consultation_header_content .conContact{
+                    width: 100%;
+                    padding: 0 15% !important;
+                    font-size: 15px;
+                  }
+
+                  .consultation_header_content .conAppoint{
+                    width: 100%;
+                    padding: 0 30% !important;
+                    font-size: 15px;
+                  }
+            /* end Consultation  */
+
+
+             /* start blog  */
+             .blogSection .sectionHeader{
+                width: 100%;
+                margin-bottom: 5%;
+             }
+
+             .blogSection .sectionHeader .title-header{
+                font-size: 25px;
+             }
+
+             .blogSection .sectionHeader .title-para{
+                width: 80%;
+                font-size: 16px;
+                text-align: center;
+                margin: auto;
+             }
+
+             .blogSection .btn{
+                margin-bottom: 10%;
+             }
+
+             .blogSection .blogCards{
+                margin: auto;
+             }
+             /* end blog  */
+           
+}
