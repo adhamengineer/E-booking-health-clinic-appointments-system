@@ -127,13 +127,6 @@ a {
 /* end navbar  */
 
 /* start header  */
-.carouselExampleAutoplaying {
-  height: 80vh;
-}
-
-.swiper .swiper-slide {
-  background-image: url(../imgs/header/slider-img-1.jpg);
-}
 
 .overlay {
   position: absolute;
@@ -652,37 +645,11 @@ position: absolute;
 left: 25%;
 }
 
-.carousel .carousel-item p{
-  line-height: 26px;
-    font-size: 16px;
-    color: #7A7A7A;
-    font-weight: 500;
-    font-style: italic;
+.ourPatients_section .carousel{
+position: absolute;
+bottom: 110px;
 }
 
-.carousel .carousel-item .star-icon{
-  color: #ffc107;
-}
-
-.carousel .carousel-item h3{
-  color: #081839;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-}
-
-.carousel .carousel-item span{
-  line-height: 26px;
-  font-size: 16px;
-  color: #7A7A7A;
-  font-weight: 500;
-}
-
-.carousel .carousel-item .user i{
-  font-size: 150px;
-  color: #7A7A7A;
-  margin-left: 20%;
-  margin-bottom: 5%;
-}
 /* end Testimonials  */
 
 
