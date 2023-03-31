@@ -30,15 +30,9 @@
 
       /* header  */
 
-      .header .carouselExampleAutoplaying {
-        height: 100vh;
-      }
-
       .header .headerContent {
-
         top: 18%;
         left: 20%;
-
         width: 60%;
       }
 
@@ -151,5 +145,25 @@
                 margin: auto;
              }
              /* end blog  */
+
+             /* start testimonials  */
+             .ourPatients_section .carousel .carousel-item img{
+                display: block;
+                width: 90% !important;
+                top: 10px;
+             }
            
+             .ourPatients_section .sectionHeader {
+                position: absolute;
+                left: 12%;
+             }
+
+             .ourPatients_section .sectionHeader .title-header{
+                font-size: 20px;
+             }
+
+             .ourPatients_section .sectionHeader p{
+                font-size: 10px;
+             }
+             /* end testimonials  */
 }
