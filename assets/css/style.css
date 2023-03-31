@@ -76,6 +76,7 @@ a {
   height: 30px !important;
   line-height: 15px;
 }
+
 /* end top  */
 
 
@@ -180,9 +181,7 @@ a {
   font-weight: 500;
   color: #fff;
   font-size: 20px;
-  transform: translateY(100px);
-  animation-name: slide;
-  animation-duration: 0.5s;
+  height: -100%;
 }
 
 .headerContent h1 {
@@ -190,8 +189,7 @@ a {
   font-size: 80px;
   font-weight: 700;
   color: #fff;
-  animation-name: slide;
-  animation-duration: 0.5s;
+
 }
 
 .headerContent p {
@@ -212,6 +210,59 @@ a {
   letter-spacing: 1px;
 }
 
+.header .headerContent .topTitel{
+animation-name: headerContent;
+animation-duration: 1s;
+animation-direction: alternate;
+animation-delay: 0.5s;
+}
+
+@keyframes headerContent{
+  0%{
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+
+  }
+}
+
+.header .headerContent h1{
+animation-name: h1animattion;
+animation-duration: 1.5s;
+animation-direction: alternate;
+animation-delay: 1.5s;
+}
+
+@keyframes h1animattion{
+  0%{
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.header .headerContent p{
+  animation-name: headerContent;
+  animation-duration: 1.5s;
+  animation-direction: alternate;
+  animation-delay: 2.5s;
+}
+
+.header .headerContent a{
+  animation-name: headerContent;
+  animation-duration: 1.5s;
+  animation-direction: alternate;
+  animation-delay: 3.5s;
+}
+
 .headerContent .check {
   background-color: #1bbde4;
   border: 1px solid #1bbde4;
@@ -222,6 +273,27 @@ a {
   background-color: #fff;
 }
 
+.fa-angle-left{
+transform: translateX(200px);
+transition: transform 0.5s ,opacity 0.5s;
+opacity: 0;
+}
+
+.header:hover .fa-angle-left{
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.fa-chevron-right{
+  transform: translateX(-200px);
+  transition: transform 0.5s ,opacity 0.5s;
+  opacity: 0;
+  }
+  
+  .header:hover .fa-chevron-right{
+    transform: translateX(0px);
+    opacity: 1;
+  }
 
 
 /* end header  */
@@ -242,7 +314,6 @@ a {
 }
 
 .who_image img {
-  background-color: red !important;
   width: 80%;
 }
 
@@ -324,7 +395,7 @@ a {
 /* start services  */
 
 .servicesSection {
-  background-image: url(../imgs/services/services-bg-2-01.jpg);
+  background-image: url(../imgs/Home_page_imgs/services/services-bg-2-01.jpg);
   background-attachment: fixed;
   height: 150vh;
 }
@@ -634,6 +705,8 @@ left: 25%;
 
 .gallary_header_right{
   position: relative;
+  animation-name: jump;
+animation-duration: .7s;
 }
 
 .gallary_header_right_img{
@@ -675,6 +748,8 @@ height: 80%;
 .row_down_img{
   position: relative;
   width: 30%;
+  animation-name: jump;
+  animation-duration: .7s;
 }
 
 .row_down_img img{
@@ -723,6 +798,18 @@ height: 80%;
 
 .row_down_img:hover i{
   opacity: 1;
+}
+
+@keyframes jump{
+
+0%{
+  scale: 0;
+}
+
+100%{
+  scale: 1;
+}
+
 }
 /* end gallary  */
 
@@ -881,3 +968,19 @@ color: #7a7a7a;
   background-color: #081839 !important;
 }
 /* end Blogs  */
+
+
+
+/* preloading screen  */
+
+.preloader{
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url(../imgs/preLoader/loader-rolling.gif);
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+
+}
