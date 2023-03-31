@@ -210,18 +210,6 @@ animation-direction: alternate;
 animation-delay: 0.5s;
 }
 
-@keyframes headerContent{
-  0%{
-    transform: translateY(-100px);
-    opacity: 0;
-  }
-
-  100%{
-    transform: translateY(0px);
-    opacity: 1;
-
-  }
-}
 
 .header .headerContent h1{
 animation-name: h1animattion;
@@ -230,17 +218,6 @@ animation-direction: alternate;
 animation-delay: 1.5s;
 }
 
-@keyframes h1animattion{
-  0%{
-    transform: translateY(-300px);
-    opacity: 0;
-  }
-
-  100%{
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
 
 .header .headerContent p{
   animation-name: headerContent;
